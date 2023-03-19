@@ -1,0 +1,16 @@
+12. How is memory management done in python? 
+If I want to execute a program, the program will allocate some region(memory) in the RAM, 
+the region is divided into two parts.
+1.Stack
+2.Private Heap
+Python is an object oriented language, everything is treated as an object.
+Test.py                                                        stack               private Heap
+a=10                                                             a                       1000
+print(type(a))                                                  1000                      10
+
+Output:
+10
+<class ‘int’>
+
+Everything in python is an object, objects are created on the Heap. Every object will have  
+an address and the address is always stored in a reference and reference is created on the stack.

@@ -1,0 +1,45 @@
+15. Give the scenarios, when you will get ‘ValueError’
+In Python, the ValueError is a built-in exception that is raised when an operation or 
+function receives an argument that has the right type but an inappropriate value. 
+Here are some scenarios in which you may encounter a ValueError in Python:
+
+Incorrect Argument Type: If you pass an argument of the wrong type to a function or method, 
+it can raise a ValueError. 
+For example, calling int('hello') will raise a ValueError since 'hello' cannot be converted to an integer.
+
+Out of Range: If you provide a value that is outside the valid range for a given operation or 
+function, a ValueError may be raised. 
+For example, calling int('100000000000000000000000000000000') will raise a ValueError since 
+the number is too large to be represented as an integer.
+
+Empty Sequences: If you try to access an element from an empty sequence, such as an empty list 
+or tuple, a ValueError may be raised. 
+For example, calling lst.pop() on an empty list will raise a ValueError.
+
+Incorrect Format String: If you use an incorrect format string with the str.format() method, 
+a ValueError may be raised. 
+For example, calling '{}{}'.format(1, 2, 3) will raise a ValueError since there are 
+only two placeholders in the format string but three arguments are provided.
+Sure, here are some specific examples of scenarios in which a ValueError exception might be raised:
+
+Converting a string that does not represent a valid integer to an integer using the int() function. 
+For example:
+python
+>>> int('abc')
+ValueError: invalid literal for int() with base 10: 'abc'
+
+Trying to convert a string that represents a number outside the valid range for the target type to that type. 
+For example:
+python
+>>> float('inf')
+inf
+>>> int('12345678901234567890')
+ValueError: invalid literal for int() with base 10: '12345678901234567890'
+
+Using the range() function with invalid arguments. 
+For example:
+python
+>>> range(5, 1, -1)
+[5, 4, 3, 2]
+>>> range(1, 5, 0)
+ValueError: range() arg 3 must not be zero
