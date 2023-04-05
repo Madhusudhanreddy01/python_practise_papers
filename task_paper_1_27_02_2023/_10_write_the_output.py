@@ -12,7 +12,6 @@ match = 'madhu'
 input1 ='Upgraded_image_version_8.0.4.3'
 
 x = re.findall(match,input1)
-
 if str(*x) == match:
     print("Yes")
 else:

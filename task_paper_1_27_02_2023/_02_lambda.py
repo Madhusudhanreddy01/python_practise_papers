@@ -30,4 +30,3 @@ print(sum(3, 5))  # Output: 8
 square = lambda x: x**2
 print(square(4))  
 # Output: 16
-

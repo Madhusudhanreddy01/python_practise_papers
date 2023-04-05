@@ -59,3 +59,17 @@ my_dict = {'c': 3, 'a': 1, 'b': 2}
 sorted_dict = {k: my_dict[k] for k in sorted(my_dict)}
 print(sorted_dict)
 # Output: {'a': 1, 'b': 2, 'c': 3}
+
+# ----------------------------------------------
+dictionary_of_names = {'beth': 37, 
+                       'jane': 32,
+                       'john': 41, 
+                       'mike': 59
+}
+print(sorted(dictionary_of_names .keys()))
+
+# ----------
+# only items will get 
+from collections import OrderedDict
+D = {5:'fff', 3:'ttt', 1:'ooo',4:'bbb', 2:'ddd'}
+OrderedDict(D.items())

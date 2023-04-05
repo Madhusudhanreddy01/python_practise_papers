@@ -5,7 +5,8 @@ import calendar
 
 def get_saturdays_in_month(month, year):
     saturdays = []
-    for day in range(1, calendar.monthrange(year, month)[1]+1):
+    _, num_days = calendar.monthrange(year, month)
+    for day in range(1, num_days+1):
         if calendar.weekday(year, month, day) == calendar.SATURDAY:
             saturdays.append(day)
     return saturdays
