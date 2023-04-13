@@ -1,5 +1,5 @@
-# 7. Write a function that accepts two strings and returns True if the two strings are
-# anagrams of each other.
+'''7. Write a function that accepts two strings and returns True if the two strings are
+anagrams of each other.'''
 
 
 def is_anagram(str1, str2):

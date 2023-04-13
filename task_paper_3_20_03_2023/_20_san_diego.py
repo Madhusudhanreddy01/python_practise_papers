@@ -1,8 +1,8 @@
-# 20. Create a function that determines which day of the month the San Diego Python
-# meetup should be. It should accept year and month arguments and should return
-# a datetime.date object representing the day of the month for the meetup.
-# >>> meetup_date(2012, 3)
-# datetime.date(2012, 3, 22)
+'''20. Create a function that determines which day of the month the San Diego Python
+meetup should be. It should accept year and month arguments and should return
+a datetime.date object representing the day of the month for the meetup.
+>>> meetup_date(2012, 3)
+datetime.date(2012, 3, 22)'''
 
 
 import datetime

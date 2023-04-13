@@ -21,14 +21,15 @@ NameError: name 'name' is not defined '''
 
 
 class suppress:
-    def __init__(self, exc_type):
-        self.exc_type = exc_type
+    def __init__(self, exceptions):
+        self.exceptions = exceptions
 
     def __enter__(self):
         return self
     
-    def __exit__(self, exc_value, exc_tb):
-        if isinstance(exc_value, self.exc_type):
+    def __exit__(self,  exc_type, exc_value, exc_traceback):
+        print(exc_type, exc_value, exc_traceback)
+        if exc_type == self.exceptions:
             return True
         
 with suppress(NameError):

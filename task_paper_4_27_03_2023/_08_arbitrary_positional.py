@@ -1,4 +1,4 @@
-# 8. What is the return type of arbitrary positional arguments and arbitrary keyword arguments.
+'''8. What is the return type of arbitrary positional arguments and arbitrary keyword arguments.'''
 
 def positional_(*args):
     results_=0

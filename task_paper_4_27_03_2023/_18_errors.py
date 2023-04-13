@@ -1,6 +1,6 @@
-# 18. Write sample code for reproducing the below errors and print the user defined messages with the 
-# use of exception handling concept 
-# • IndexError,TypeError,AttributeError,ValueError
+'''18. Write sample code for reproducing the below errors and print the user defined messages with the 
+use of exception handling concept 
+• IndexError,TypeError,AttributeError,ValueError'''
 
 print("-----------------------------------------------------")
 # Index Error

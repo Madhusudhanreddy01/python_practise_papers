@@ -1,5 +1,5 @@
-# 9. Create a function is_leap_year that accepts a year and returns True if (and only
-# if) the given year is a leap year.
+'''9. Create a function is_leap_year that accepts a year and returns True if (and only
+if) the given year is a leap year.'''
 
 def checkyear(year):
     if (year%4)==0:

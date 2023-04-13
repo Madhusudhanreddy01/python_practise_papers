@@ -1,6 +1,6 @@
-# 2. Define a function which returns a list contains only the palindrome strings from the list of provided string elements
-# input	: List of strings
-# output : List of palindrome strings
+'''2. Define a function which returns a list contains only the palindrome strings from the list of provided string elements
+input	: List of strings
+output : List of palindrome strings'''
 
 def get_palindromes(strings):
     return[s for s in strings if s == s[::-1]]

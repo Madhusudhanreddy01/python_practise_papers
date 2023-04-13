@@ -12,28 +12,12 @@ And this is line 3
 This is line 2
 This is a file'''
 
-from this import s
 
-
-def last_lines(filename,n):
-    with open(filename,'r') as f:
+def last_lines(filename):
+    with open(filename, 'r') as f:
         lines = f.readlines()
         return lines[::-1]
-lines=last_lines('test.txt', 3)
+lines=last_lines('lines_reverse.txt')
 for i in lines:
-    i=i.replace("\n", "")
+    i=i.replace("\n","")
     print(i)
-
-
-
-# def last_lines(file_path):
-#     with open(file_path, 'r') as file:
-#         lines = file.readlines()
-#         return lines
-
-# str_=""
-# for line in last_lines('reverse_order.txt'):
-#     str_=str_+str(line)
-# l=str_.split('\n')
-# for i in range(len(l)-1,-1, -1):
-#     print(l[i])

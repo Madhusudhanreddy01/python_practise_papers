@@ -1,4 +1,4 @@
-# 15. Define logic for generating the random password with the provided length as an input.
+'''15. Define logic for generating the random password with the provided length as an input.'''
 
 import  random
 

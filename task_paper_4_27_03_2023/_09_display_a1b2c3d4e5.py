@@ -1,4 +1,15 @@
-# 9. Given a string “abcde”, Display the output as “a1b2c3d4e5”
+'''9. Given a string “abcde”, Display the output as “a1b2c3d4e5”'''
+
+str_ing = "abcde"
+result = ""
+c = 0
+for i in range(len(str_ing)):
+   result += str_ing[c]
+   c += 1
+   result += str(c)
+print(result)
+
+print("-------------------or-----------------")
 
 def add_indexes(s):
     output_str=""

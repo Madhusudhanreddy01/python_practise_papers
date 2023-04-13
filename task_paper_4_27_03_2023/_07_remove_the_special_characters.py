@@ -1,5 +1,5 @@
-# 7. In the given string, remove the special characters and add a space instead of 
-# that “Msys&Technologies@Chennai
+'''7. In the given string, remove the special characters and add a space instead of 
+that “Msys&Technologies@Chennai'''
 
 string_= "Msys&Technologies@Chennai"
 res_=""

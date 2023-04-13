@@ -1,5 +1,5 @@
-# 10. Write a function combine_lists should take two lists and return a new list
-# containing all elements from both lists.
+'''10. Write a function combine_lists should take two lists and return a new list
+containing all elements from both lists.'''
 
 
 def combine_lists(list1, list2):

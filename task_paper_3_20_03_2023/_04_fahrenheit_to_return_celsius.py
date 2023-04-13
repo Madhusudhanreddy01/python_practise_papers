@@ -1,5 +1,5 @@
-# 4. Write to_celsius function that accepts a temperature in Fahrenheit as input and
-# returns a temperature in Celsius.
+'''4. Write to_celsius function that accepts a temperature in Fahrenheit as input and
+returns a temperature in Celsius.'''
 
 
 def to_celsius(fahrenheit):

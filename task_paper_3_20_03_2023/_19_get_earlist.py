@@ -1,6 +1,6 @@
-# 19. Write a function that takes two strings representing dates and returns the string that 
-# represents the earliest point in time ? Ex. get_earliest("01/27/1832", "01/27/1756") 
-# return '01/27/1756'.
+'''19. Write a function that takes two strings representing dates and returns the string that 
+represents the earliest point in time ? Ex. get_earliest("01/27/1832", "01/27/1756") 
+return '01/27/1756'.'''
 
 def get_earliest(date1, date2):
    

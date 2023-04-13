@@ -1,9 +1,9 @@
-# 12. Solve the following scenarios
-# • Let’s assume that there is a tuple containing username, You have got a requirement to add password also into it.
-# o Input : (“user1”)
-# o Output : (“user1”,”password1”)
-# • Below logic is failing with an error message, Instead of auto generated Error, Please display the user defined message saying “Error : Cannot concatenate String and Number”
-# print(“msys” + 2007)
+'''12. Solve the following scenarios
+• Let’s assume that there is a tuple containing username, You have got a requirement to add password also into it.
+o Input : (“user1”)
+o Output : (“user1”,”password1”)
+• Below logic is failing with an error message, Instead of auto generated Error, Please display the user defined message saying “Error : Cannot concatenate String and Number”
+print(“msys” + 2007)'''
 
 
 t=("usernasme",)
